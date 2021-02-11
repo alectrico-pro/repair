@@ -1,0 +1,3 @@
+convert -resize 256x256 atencion_corte_de_luz.png atencion_corte_de_luz_resize.png
+
+
