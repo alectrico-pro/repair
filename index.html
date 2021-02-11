@@ -931,7 +931,7 @@
 	</p>
 
         <div>
-          <form method="GET" action="https://pago_repair.alectrico.cl/pagar"  
+          <form method="GET" action="https://repair_alectrico.alectrico.cl/pagar"  
             target="_top">
 
             <input readonly hidden name="amount" type="text" placeholder="Monto Bruto" [value] = "''.concat( (values( itemsSrc.concat([0])).map( (x,i) => x.monto ).reduce( (acumulador, valor_actual) => acumulador + valor_actual )*1).toFixed(0)) " >
